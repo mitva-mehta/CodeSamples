@@ -1,0 +1,58 @@
+﻿.contact-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right:20px;
+    height: 450px;
+}
+
+#HEA {
+    width: 97.77%;  /*440px*/
+    height:200px;
+    border-radius:15px;
+    margin-top: 7px;
+}
+
+#image-container {
+    width: 43.3108%; /*450px*/
+    min-height: 400px;
+    float: left;
+    
+    margin-left: 5%;
+    background-image: linear-gradient(#686262, #868686);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#text-container {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 40%;
+    margin-right: 5%;
+    float: right;
+    text-align: justify;
+    background-color: #111;
+    background-image: linear-gradient(#686262, #868686);
+    color: #000000;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#text-container p {
+    font-family: 'Fjord One';
+    width: 95.8115%;
+    
+}
+
+#contact-title {
+    text-align: center; 
+    font-family: 'Sevillana'; 
+    font-size: 32px; 
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: 'Fjord One';
+}

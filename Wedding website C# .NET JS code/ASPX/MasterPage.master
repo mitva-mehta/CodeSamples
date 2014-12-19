@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"%>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset='utf-8' />
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1"/>
+    <title>Happily Ever After</title>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="css/masterStyle.css"/>
+    <link rel="shortcut icon" href="images/myprojicon.png"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+        <h1 id="site_name">Happily Ever After</h1>
+        <div>
+            <ul id="menu">
+                <li><a href="index.aspx">Home</a></li>
+                <li>
+                    <a href="#">Wedding Shop</a>
+                    <ul>
+                        <li><a href="shop.aspx?field1=Wedding dress&field2=Apparel&field3=10000&field4=50000&field5=relevancerank">Wedding dress</a></li>
+                        <li><a href="shop.aspx?field1=Bridal veil&field2=Beauty&field3=2000&field4=9000&field5=pmrank">Bridal veil and tiara</a></li>
+                        <li><a href="shop.aspx?field1=Engagement ring&field2=Beauty&field3=10000&field4=200000&field5=salesrank">Engagement Rings</a></li>
+                        <li><a href="shop.aspx?field1=Bridal Heels&field2=Shoes&field3=3000&field4=20000&field5=relevancerank">Bridal shoes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gallery.aspx?field1=Wedding photos">Photo Gallery</a>
+                    <ul>
+                        <li><a href="gallery.aspx?field1=Wedding cake pictures">Wedding cakes</a></li>
+                        <li><a href="gallery.aspx?field1=Bridal Bouquet">Wedding flowers</a></li>
+                        <li><a href="gallery.aspx?field1=Bridal hairstyles">Bridal hairstyles</a></li>
+                        <li><a href="gallery.aspx?field1=Invitation card wedding">Wedding Invitations</a></li>
+                        <li><a href="gallery.aspx?field1=Theme weddings">Theme Weddings</a></li>
+                    </ul>
+                </li>
+                <li><a href="directions.aspx">Directions</a></li>
+                <li><a href="about.aspx">About Us</a></li>
+                <li><a href="contact.aspx">Contact Us</a></li>
+                <li><a href="../story/index.htm?../project/documentation/story.txt" target="_blank">Documentation</a></li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">  </asp:ContentPlaceHolder> 
+        <div id="footer">
+            Copyright © 2014 | Mitva Mehta | All rights reserved | Email: mehta.mi@husky.neu.edu
+        </div>
+    </div>
+    </form>
+</body>
+</html>
